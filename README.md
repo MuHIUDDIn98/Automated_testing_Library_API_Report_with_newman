@@ -57,7 +57,12 @@ https://github.com/MuHIUDDIn98/Automated_testing_Library_API_Report_with_newman.
 8. View Results:
     -   Once the tests are complete, view the results in the Runner tab.
     -   Detailed test results can be viewed for each request.
-Generate report using CLI:
+
+
+
+
+
+### Generate report using CLI:
 ```console
 newman run Library.postman_collection.json -e Library_env.postman_environment.json -r cli,htmlextra
 ```
