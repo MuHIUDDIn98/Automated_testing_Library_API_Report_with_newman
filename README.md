@@ -26,7 +26,8 @@ This project demonstrates API testing using Postman, providing a collection of t
 
 1. Postman: If you haven't already, [download and install Postman.](https://www.postman.com/downloads/)
 2. Clone the repository:
- ```console 
+ ```console
+https://github.com/MuHIUDDIn98/Automated_testing_Library_API_Report_with_newman.git
   
 ```
 3. Import the Postman collection:
@@ -56,6 +57,10 @@ This project demonstrates API testing using Postman, providing a collection of t
 8. View Results:
     -   Once the tests are complete, view the results in the Runner tab.
     -   Detailed test results can be viewed for each request.
+Generate report using CLI:
+```console
+newman run Library.postman_collection.json -e Library_env.postman_environment.json -r cli,htmlextra
+```
 
 
 
