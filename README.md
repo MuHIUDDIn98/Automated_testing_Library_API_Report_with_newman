@@ -1,4 +1,4 @@
-"### Automated_testing_Library_API_Report_with_newman" 
+### Automated_testing_Library_API_Report_with_newman
 
 This project demonstrates API testing using Postman, providing a collection of tests to validate various endpoints of the API. 
 
